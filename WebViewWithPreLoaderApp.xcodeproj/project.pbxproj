@@ -13,6 +13,8 @@
 		6079882D258E43D500B36647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6079882B258E43D500B36647 /* Main.storyboard */; };
 		6079882F258E43E300B36647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6079882E258E43E300B36647 /* Assets.xcassets */; };
 		60798832258E43E300B36647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60798830258E43E300B36647 /* LaunchScreen.storyboard */; };
+		6079883C258E469200B36647 /* PreLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6079883A258E469200B36647 /* PreLoaderView.swift */; };
+		6079883D258E469300B36647 /* PreLoaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6079883B258E469200B36647 /* PreLoaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6079882E258E43E300B36647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60798831258E43E300B36647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60798833258E43E300B36647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6079883A258E469200B36647 /* PreLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreLoaderView.swift; sourceTree = "<group>"; };
+		6079883B258E469200B36647 /* PreLoaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreLoaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				60798825258E43D500B36647 /* AppDelegate.swift */,
 				60798827258E43D500B36647 /* SceneDelegate.swift */,
 				60798829258E43D500B36647 /* ViewController.swift */,
+				6079883A258E469200B36647 /* PreLoaderView.swift */,
+				6079883B258E469200B36647 /* PreLoaderView.xib */,
 				6079882B258E43D500B36647 /* Main.storyboard */,
 				6079882E258E43E300B36647 /* Assets.xcassets */,
 				60798830258E43E300B36647 /* LaunchScreen.storyboard */,
@@ -127,6 +133,7 @@
 				60798832258E43E300B36647 /* LaunchScreen.storyboard in Resources */,
 				6079882F258E43E300B36647 /* Assets.xcassets in Resources */,
 				6079882D258E43D500B36647 /* Main.storyboard in Resources */,
+				6079883D258E469300B36647 /* PreLoaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 				6079882A258E43D500B36647 /* ViewController.swift in Sources */,
 				60798826258E43D500B36647 /* AppDelegate.swift in Sources */,
 				60798828258E43D500B36647 /* SceneDelegate.swift in Sources */,
+				6079883C258E469200B36647 /* PreLoaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
